@@ -1,0 +1,25 @@
+{
+  "name": "nlw_trilha_discovery_3",
+  "version": "1.0.0",
+  "description": "Projeto da Next Level Week 3, Trilha Discovery feita pela Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariele-fatima/nlw_trilha_discovery_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariele-fatima/nlw_trilha_discovery_3/issues"
+  },
+  "homepage": "https://github.com/ariele-fatima/nlw_trilha_discovery_3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  }
+}
