@@ -64,3 +64,15 @@ function toggleSelect(event){
     input.value = button.dataset.value;
 
 }
+
+function validate(event){
+    const lat = document.querySelector('[name=lat]').value;
+    const lng = document.querySelector('[name=lng]').value;
+    
+    const needsdLatAndLng = (lat == "" || lng == "") ? true : false;
+    if(needsdLatAndLng){
+        console.log(needsdLatAndLng)
+        event.preventDefault()
+        alert('Selecione um ponto no mapa')
+    }
+}
